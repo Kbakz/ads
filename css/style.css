@@ -1,3 +1,4 @@
+/* Estilos gerais*/
 *{
 	margin:0;
 	padding: 0;
@@ -19,6 +20,7 @@ html,body{
 	margin: 0 auto;
 	padding: 0 2%;
 }
+/****/
 
 header{
 	background: linear-gradient(to bottom, #e8e8e8 30%, #90d6fa);
@@ -78,7 +80,7 @@ section.descricao .text-wraper{
 
 section.descricao p{
 	margin-top: 20px;
-	font-size: 25px;
+	font-size: 22px;
 	color: #444;
 	font-weight: lighter;
 }
@@ -105,11 +107,11 @@ section.descricao .img-produto{
 	left: 0;
 }
 
-.img-produto img{
+section.descricao .img-produto img{
 	width: 60%;
 }
 
-.navegacao img{
+section.descricao .navegacao img{
 	position: absolute;
 	transform: translateY(50% - 15px);
 	top:50%;
@@ -117,11 +119,11 @@ section.descricao .img-produto{
 	cursor: pointer;
 }
 
-.navegacao img:nth-of-type(1){
+section.descricao .navegacao img:nth-of-type(1){
 	left: 10px;
 }
 
-.navegacao img:nth-of-type(2){
+section.descricao .navegacao img:nth-of-type(2){
 	right: 10px;
 }
 
@@ -179,7 +181,7 @@ footer .img-contato-wraper{
 
 }
 
-.img-contato-wraper a{
+footer .img-contato-wraper a{
 	width: 120px;
 	height: 40px;
 	float: left;
@@ -196,13 +198,13 @@ footer .contato{
 
 
 
-.contato p{
+footer .contato p{
 	float: left;
 	font-size: 25px;
 	color: #148ffe;
 }
 
-.contato a{
+footer .contato a{
 	float: left;
 	padding: 0 10px;
 	text-decoration: none;
@@ -211,10 +213,9 @@ footer .contato{
 	cursor:pointer;
 }
 
-.contato img{
+footer .contato img{
 	float: left;
 	width: 25px;
-	
 }
 
 
@@ -369,7 +370,16 @@ footer.tanks .contato-icon a{
 	header p{
 		font-size: 35px;
 	}
+	
+	section.descricao .text-wraper{
+		width: 100%;
+		float: none;
+	}
 
+	section.descricao .img-produto-wraper{
+		width: 75%;
+		float: none;
+	}
 
 	footer{
 		padding: 20px 0;
